@@ -1,0 +1,6 @@
+LIBRARY my_dll
+EXPORTS
+        DllGetClassObject   private
+        DllCanUnloadNow     private
+        DllRegisterServer   private
+        DllUnregisterServer private

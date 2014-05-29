@@ -1,0 +1,4 @@
+LIBRARY shell_ext
+EXPORTS
+        DllGetClassObject   private
+        DllCanUnloadNow     private

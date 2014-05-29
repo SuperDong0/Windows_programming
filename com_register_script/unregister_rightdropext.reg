@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Remove the registry key
+[-HKEY_CLASSES_ROOT\Directory\ShellEx\DragDropHandlers\ExeMenu]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\shell_ext_dll.ExeMenu]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{C85FCF0B-43EB-40B2-B6D7-72D86C4705EB}]

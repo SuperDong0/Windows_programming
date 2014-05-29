@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; @ means default
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\my_dll.SimpleCom\CLSID]
+@="{E91338F7-2E82-4397-B94E-4A99AEC690D0}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E91338F7-2E82-4397-B94E-4A99AEC690D0}]
+@="my_dll.SimpleCom"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E91338F7-2E82-4397-B94E-4A99AEC690D0}\InProcServer32]
+@="C:\\Documents and Settings\\lausai\\My Documents\\Dropbox\\my_code\\windows_shell\\my_dll.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E91338F7-2E82-4397-B94E-4A99AEC690D0}\ProgID]
+@="my_dll.SimpleCom"

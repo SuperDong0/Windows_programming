@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; @ means default
+[HKEY_CLASSES_ROOT\txtfile\ShellEx\DropHandler]
+@="{7D1FBCF6-1084-4487-8BA6-0E6645C8AF34}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\shell_ext_dll.DropTxt\CLSID]
+@="{7D1FBCF6-1084-4487-8BA6-0E6645C8AF34}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{7D1FBCF6-1084-4487-8BA6-0E6645C8AF34}]
+@="shell_ext_dll.DropTxt"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{7D1FBCF6-1084-4487-8BA6-0E6645C8AF34}\InProcServer32]
+@="C:\\Documents and Settings\\lausai\\My Documents\\Dropbox\\my_code\\windows_shell\\shell_ext.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{7D1FBCF6-1084-4487-8BA6-0E6645C8AF34}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{7D1FBCF6-1084-4487-8BA6-0E6645C8AF34}\ProgID]
+@="shell_ext_dll.DropTxt"

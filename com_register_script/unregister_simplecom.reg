@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Remove the registry key
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\my_dll.SimpleCom]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E91338F7-2E82-4397-B94E-4A99AEC690D0}]

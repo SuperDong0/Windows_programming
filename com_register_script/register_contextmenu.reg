@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; @ means default
+[HKEY_CLASSES_ROOT\exefile\ShellEx\ContextMenuHandlers\ExeMenu]
+@="{C85FCF0B-43EB-40B2-B6D7-72D86C4705EB}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\shell_ext_dll.ExeMenu\CLSID]
+@="{C85FCF0B-43EB-40B2-B6D7-72D86C4705EB}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{C85FCF0B-43EB-40B2-B6D7-72D86C4705EB}]
+@="shell_ext_dll.ExeMenu"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{C85FCF0B-43EB-40B2-B6D7-72D86C4705EB}\InProcServer32]
+@="C:\\Documents and Settings\\lausai\\My Documents\\Dropbox\\my_code\\windows_shell\\shell_ext.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{C85FCF0B-43EB-40B2-B6D7-72D86C4705EB}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{C85FCF0B-43EB-40B2-B6D7-72D86C4705EB}\ProgID]
+@="shell_ext_dll.ExeMenu"

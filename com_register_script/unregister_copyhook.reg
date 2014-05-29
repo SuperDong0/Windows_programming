@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Remove the registry key
+[-HKEY_CLASSES_ROOT\Directory\ShellEx\CopyHookHandlers\CopyMonitor]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\shell_ext_dll.CopyMonitor]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{4A2BC85F-E81C-4559-8B69-3CF436C87FF2}]

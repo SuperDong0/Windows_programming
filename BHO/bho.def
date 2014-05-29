@@ -1,0 +1,6 @@
+LIBRARY bho
+EXPORTS
+        DllGetClassObject   private
+        DllCanUnloadNow     private
+        DllRegisterServer   private
+        DllUnregisterServer private

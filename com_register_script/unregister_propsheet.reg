@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Remove the registry key
+[-HKEY_CLASSES_ROOT\JSFile\ShellEx\PropertySheetHandlers\PropPage]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\shell_ext_dll.PropPage]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{30230517-20A6-47B1-9539-30CC475DB8F9}]

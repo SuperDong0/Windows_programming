@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; @ means default
+[HKEY_CLASSES_ROOT\JSFile\ShellEx\PropertySheetHandlers\PropPage]
+@="{30230517-20A6-47B1-9539-30CC475DB8F9}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\shell_ext_dll.PropPage\CLSID]
+@="{30230517-20A6-47B1-9539-30CC475DB8F9}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{30230517-20A6-47B1-9539-30CC475DB8F9}]
+@="shell_ext_dll.PropPage"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{30230517-20A6-47B1-9539-30CC475DB8F9}\InProcServer32]
+@="C:\\Documents and Settings\\lausai\\My Documents\\Dropbox\\my_code\\windows_shell\\shell_ext.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{30230517-20A6-47B1-9539-30CC475DB8F9}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{30230517-20A6-47B1-9539-30CC475DB8F9}\ProgID]
+@="shell_ext_dll.PropPage"

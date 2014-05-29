@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Remove the registry key
+[-HKEY_CLASSES_ROOT\txtfile\ShellEx\DropHandler]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\shell_ext_dll.DropTxt]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{7D1FBCF6-1084-4487-8BA6-0E6645C8AF34}]

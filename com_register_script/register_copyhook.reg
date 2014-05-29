@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; @ means default
+[HKEY_CLASSES_ROOT\Directory\ShellEx\CopyHookHandlers\CopyMonitor]
+@="{4A2BC85F-E81C-4559-8B69-3CF436C87FF2}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\shell_ext_dll.CopyMonitor\CLSID]
+@="{4A2BC85F-E81C-4559-8B69-3CF436C87FF2}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{4A2BC85F-E81C-4559-8B69-3CF436C87FF2}]
+@="shell_ext_dll.CopyMonitor"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{4A2BC85F-E81C-4559-8B69-3CF436C87FF2}\InProcServer32]
+@="C:\\Documents and Settings\\lausai\\My Documents\\Dropbox\\my_code\\windows_shell\\shell_ext.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{4A2BC85F-E81C-4559-8B69-3CF436C87FF2}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{4A2BC85F-E81C-4559-8B69-3CF436C87FF2}\ProgID]
+@="shell_ext_dll.CopyMonitor"
